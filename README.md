@@ -1,2 +1,2 @@
 # quiz-app
-Quiz
+Quiz app using React js
