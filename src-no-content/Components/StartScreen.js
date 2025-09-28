@@ -1,11 +1,8 @@
-import { useQuiz } from "../Contexts/QuizProvider";
-function StartScreen() {
-  const { questionsNumber, dispatch } = useQuiz();
-
+function StartScreen({ quesionsNumber, dispatch }) {
   return (
     <div className="start">
       <h2>Welcome to The Quiz</h2>
-      <h3>{questionsNumber} questions to test your knowledge</h3>
+      <h3>{quesionsNumber} questions to test your knowledge</h3>
 
       <button
         className="btn btn-ui"
